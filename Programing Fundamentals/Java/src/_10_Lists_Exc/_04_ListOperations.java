@@ -25,7 +25,7 @@ public class _04_ListOperations {
                     break;
 
                 case "Insert":
-                    if (Integer.parseInt(command.get(2)) <= numbers.size() - 1) {
+                    if (Integer.parseInt(command.get(2)) <= numbers.size() - 1 && Integer.parseInt(command.get(2)) >= 0) {
                         numbers.add(Integer.parseInt(command.get(2)),
                                 Integer.parseInt(command.get(1)));
                     } else {
@@ -34,7 +34,7 @@ public class _04_ListOperations {
                     break;
 
                 case "Remove":
-                    if (Integer.parseInt(command.get(1)) <= numbers.size() - 1) {
+                    if (Integer.parseInt(command.get(1)) <= numbers.size() - 1 && Integer.parseInt(command.get(1)) >= 0) {
                         numbers.remove(Integer.parseInt(command.get(1)));
                     } else {
                         System.out.println("Invalid index");

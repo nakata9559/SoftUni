@@ -15,28 +15,28 @@ public class _07_AppendArrays {
                         .map(String::valueOf)
                         .collect(Collectors.toList());
 
-        for (int i = 0; i < input.size(); i++) {
-            input.set(i, input.get(i).replaceAll("\\s+", " "));
-
-            List<String> eachElement =
-                    Arrays.stream(input.get(i).split(" "))
-                            .collect(Collectors.toList());
-
-            for (int j = 0; j < eachElement.size(); j++) {
-                if (eachElement.get(0).equals("")) {
-                eachElement.remove(0);
-                }
-
-                if (eachElement.get(eachElement.size() - 1).equals("")) {
-                    eachElement.remove(eachElement.size() - 1);
-                }
-            }
-            input.set(i, String.join(" ", eachElement));
-        }
         Collections.reverse(input);
 
-        System.out.println(String.join(" ", input.stream()
-                .map(String::valueOf)
-                .collect(Collectors.toList())));
+        for (int i = 0; i < input.size(); i++) {
+            List<String> eachArray =
+                    Arrays.stream(input.get(i).split("\\s+"))
+                            .map(String::valueOf)
+                            .collect(Collectors.toList());
+
+            if (eachArray.isEmpty() || eachArray.get(0).isEmpty() && eachArray.size() == 1) {
+                continue;
+            } else if (eachArray.get(0).equals("")) {
+                eachArray.remove(0);
+            }
+
+            System.out.print(String.join(" ", eachArray.stream()
+                    .map(String::valueOf)
+                    .collect(Collectors.toList())));
+
+            if (i < input.size() - 1) {
+                System.out.print(" ");
+            }
+        }
+        System.out.println();
     }
 }

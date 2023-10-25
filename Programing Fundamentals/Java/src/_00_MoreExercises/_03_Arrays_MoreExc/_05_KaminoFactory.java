@@ -7,38 +7,62 @@ public class _05_KaminoFactory {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int sequencesLength = Integer.parseInt(scanner.nextLine());
-
+        int sampleLength = Integer.parseInt(scanner.nextLine());
         String input = scanner.nextLine();
-
-        int sum = 0;
-        int index = 0;
-        String[] arrOutput = new String[sequencesLength];
-        int currentIndex = 0;
-
-        while (!input.equals("Clone them!")) {
+        int sampleCounter = 0;
+        int[] bestSampleArray = new int[sampleLength];
+        int bestSequenceSum = 0;
+        int bestSampleNumber = 0;
+        int bestStartingIndex = 0;
+        int bestSequence = Integer.MIN_VALUE;
+        while (!input.equals("Clone them!"))
+        {
+            sampleCounter++;
+            int[] sequenceArray = Arrays.stream(input.split("!+"))
+                    .mapToInt(Integer::parseInt)
+                    .toArray();
+            int sequenceCounter = 0;
+            int currentBestSequenceCounter = 0;
+            int sequenceStart = 0;
+            int currentBestStartingIndex = 0;
             int currentSum = 0;
-            currentIndex++;
-            int dnaNumbers = Integer.parseInt(input.replaceAll("!", ""));
-
-            String[] dnaCheck = String
-                    .valueOf(dnaNumbers)
-                    .split("");
-
-            for (int i = 0; i < dnaCheck.length; i++) {
-                currentSum += Integer.parseInt(dnaCheck[i]);
+            for (int i = 0; i < sequenceArray.length; i++)
+            {
+                if (sequenceArray[i] == 1)
+                {
+                    if (sequenceCounter == 0)
+                    {
+                        sequenceStart = i;
+                    }
+                    currentSum++;
+                    sequenceCounter++;
+                }
+                if (sequenceArray[i] == 0 || i == sequenceArray.length - 1)
+                {
+                    if (currentBestSequenceCounter < sequenceCounter)
+                    {
+                        currentBestStartingIndex = sequenceStart;
+                        currentBestSequenceCounter = sequenceCounter;
+                    }
+                    sequenceCounter = 0;
+                }
             }
-
-            if (currentSum >= sum) {
-                sum = currentSum;
-                arrOutput = dnaCheck;
-                index = currentIndex;
+            if (currentBestSequenceCounter > bestSequence
+                    || (currentBestSequenceCounter == bestSequence && currentBestStartingIndex < bestStartingIndex)
+                    || (currentBestSequenceCounter == bestSequence && currentBestStartingIndex == bestStartingIndex && currentSum > bestSequenceSum)
+            )
+            {
+                bestSequence = currentBestSequenceCounter;
+                bestSampleNumber = sampleCounter;
+                bestSequenceSum = currentSum;
+                bestStartingIndex = currentBestStartingIndex; ;
+                bestSampleArray = sequenceArray;
             }
-
             input = scanner.nextLine();
         }
-        System.out.printf("Best DNA smaple %d with sum: %d.%n", index, sum);
-        System.out.println(String
-                .join(" ", arrOutput));
+        System.out.printf("Best DNA sample %d with sum: %d.%n", bestSampleNumber, bestSequenceSum);
+        System.out.println(String.join(" ", Arrays.stream(bestSampleArray)
+                .mapToObj(String::valueOf)
+                .toArray(String[]::new)));
     }
 }
