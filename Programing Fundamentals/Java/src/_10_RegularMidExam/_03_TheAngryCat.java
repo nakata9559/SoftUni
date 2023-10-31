@@ -1,4 +1,4 @@
-package _11_RegularMidExam;
+package _10_RegularMidExam;
 
 import java.util.ArrayList;
 import java.util.Arrays;
