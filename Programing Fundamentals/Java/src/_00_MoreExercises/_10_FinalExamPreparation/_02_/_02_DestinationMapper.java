@@ -1,4 +1,4 @@
-package _00_MoreExercises._10_ExamPreparation;
+package _00_MoreExercises._10_FinalExamPreparation._02_;
 
 import java.util.ArrayList;
 import java.util.List;
