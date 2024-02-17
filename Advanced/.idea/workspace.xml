@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="43120d9a-a9d8-49fb-a805-ed3882bb6a0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Exercises_Resources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programing Basics/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programing Basics/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programing Basics/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programing Fundamentals/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programing Fundamentals/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programing Fundamentals/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/src/_21_MidExam/_01_ChickenSnack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/src/_21_MidExam/_02_ClearSkies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/src/_21_MidExam/_03_ChasingSharks/Basin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/src/_21_MidExam/_03_ChasingSharks/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Advanced/src/_21_MidExam/_03_ChasingSharks/Shark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Basics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Basics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -43,10 +57,10 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets.root&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application._02_ClearSkies">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_20_PastExams._2022_06_June._03_Workout.Main" />
       <module name="Advanced" />
@@ -60,8 +74,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_01_ChickenSnack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21_MidExam._01_ChickenSnack" />
+      <module name="Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_21_MidExam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_02_ClearSkies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_21_MidExam._02_ClearSkies" />
+      <module name="Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_21_MidExam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sharkHaunt.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sharkHaunt.Main" />
+      <module name="Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sharkHaunt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._02_ClearSkies" />
+        <item itemvalue="Application.sharkHaunt.Main" />
+        <item itemvalue="Application._01_ChickenSnack" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
