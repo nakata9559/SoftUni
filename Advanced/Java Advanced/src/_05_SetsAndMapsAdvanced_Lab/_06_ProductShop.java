@@ -28,7 +28,7 @@ public class _06_ProductShop {
             System.out.printf("%s->%n", k1);
 
             v1.forEach((k2, v2) -> {
-                System.out.printf("Product: %s, Price: %.1f%n", k2, v2);
+                System.out.printf("_04_Encapsulation_Exc._03_ShoppingSpree.Product: %s, Price: %.1f%n", k2, v2);
             });
         });
     }

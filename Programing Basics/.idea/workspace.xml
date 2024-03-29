@@ -1,10 +1,638 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a4f223ee-da8e-4b85-a4e4-06daaf45e92f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Advanced/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/Java Advanced.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/Resources/19. Basic Algorithms - Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_19_BasicAlgorithms_Lab/_01_RecursiveArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_19_BasicAlgorithms_Lab/_02_RecursiveFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_19_BasicAlgorithms_Lab/_03_SumOfCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_19_BasicAlgorithms_Lab/_04_SetCover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Java OOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/01. Working with Abstraction - Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/01. Working with Abstraction - Lab/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/01. Working with Abstraction - Lab/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/01. Working with Abstraction - Lab/StudentSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/02. Working with Abstraction - Excercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/02. Working with Abstraction - Excercises/greedyTimes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/02. Working with Abstraction - Excercises/jediGalaxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/03. Encapsulation - Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/04. Encapsulation - Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/05. Inheritance - Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/06. Inheritance - Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/07. Interfaces and Abstraction - Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/08. Interfaces and Abstraction - Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/09. Polymorphism - Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/10. Polymorphism - Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/10. Polymorphism - Exercises/calculator/CalculationEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/10. Polymorphism - Exercises/calculator/InputInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/10. Polymorphism - Exercises/calculator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/10. Polymorphism - Exercises/calculator/MultiplicationOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/10. Polymorphism - Exercises/calculator/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/10. Polymorphism - Exercises/word/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/10. Polymorphism - Exercises/word/CommandImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/10. Polymorphism - Exercises/word/CommandInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/10. Polymorphism - Exercises/word/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/10. Polymorphism - Exercises/word/TextTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p01_SingleResponsibility/p01_DrawingShape/DrawingManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p01_SingleResponsibility/p01_DrawingShape/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p01_SingleResponsibility/p01_DrawingShape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p01_SingleResponsibility/p01_DrawingShape/interfaces/DrawingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p01_SingleResponsibility/p01_DrawingShape/interfaces/DrawingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p01_SingleResponsibility/p01_DrawingShape/interfaces/Rengerer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p01_SingleResponsibility/p01_DrawingShape/interfaces/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p01_FileStream/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p01_FileStream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p01_FileStream/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p01_FileStream/Progress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p02_DrawingShape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p02_DrawingShape/DrawingManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p02_DrawingShape/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p02_DrawingShape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p02_DrawingShape/interfaces/DrawingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p02_DrawingShape/interfaces/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p03_ShoppingCart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p03_ShoppingCart/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p03_ShoppingCart/OnlineOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p03_ShoppingCart/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p02_OpenClosedPrinciple/p03_ShoppingCart/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p03_LiskovSubstitution/p01_Square/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p03_LiskovSubstitution/p01_Square/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p03_LiskovSubstitution/p01_Square/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p03_LiskovSubstitution/p01_Square/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p04_InterfaceSegregation/p02_identity/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p04_InterfaceSegregation/p02_identity/AccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p04_InterfaceSegregation/p02_identity/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p04_InterfaceSegregation/p02_identity/interfaces/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p04_InterfaceSegregation/p02_identity/interfaces/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p05_DependencyInversion/p01_HelloWord/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p05_DependencyInversion/p01_HelloWord/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p05_DependencyInversion/p02_Worker/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p05_DependencyInversion/p02_Worker/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p05_DependencyInversion/p02_Worker/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p05_DependencyInversion/p03_Database/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p05_DependencyInversion/p03_Database/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/11. SOLID - Lab/p05_DependencyInversion/p03_Database/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/12. SOLID - Excercises/CalorieCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/12. SOLID - Excercises/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/12. SOLID - Excercises/products/Chocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/12. SOLID - Excercises/products/Coke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/12. SOLID - Excercises/products/Lemonade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/12. SOLID - Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/13. Reflection - Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/13. Reflection - Lab/Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/core/factories/UnitFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/data/UnitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/interfaces/Attacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/interfaces/CommandInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/interfaces/Destroyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/interfaces/Executable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/interfaces/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/interfaces/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/interfaces/UnitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/models/units/AbstractUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/models/units/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/models/units/Pikeman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/barracksWars/models/units/Swordsman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/blackBoxInteger/BlackBoxInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/blackBoxInteger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/harvestingFields/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/14. Reflection - Exercises/harvestingFields/RichSoilLand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/15. Exceptions and Error Handling - Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/17. Unit Testing - Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/17. Unit Testing - Lab/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/17. Unit Testing - Lab/Dummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/17. Unit Testing - Lab/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/18. Unit Testing - Exercises.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/18. Unit Testing - Exercises/p01_Database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/18. Unit Testing - Exercises/p02_ExtendedDatabase/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/18. Unit Testing - Exercises/p02_ExtendedDatabase/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/18. Unit Testing - Exercises/p03_IteratorTest/ListIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/18. Unit Testing - Exercises/p04_BubbleSortTest/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/18. Unit Testing - Exercises/p05_CustomLinkedList/CustomLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/18. Unit Testing - Exercises/p06_TirePressureMonitoringSystem/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/18. Unit Testing - Exercises/p06_TirePressureMonitoringSystem/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/19. Test Driven Development - Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/19. Test Driven Development - Lab/Instock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/19. Test Driven Development - Lab/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/19. Test Driven Development - Lab/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/19. Test Driven Development - Lab/ProductStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/20. Test Driven Development - Exercise.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/20. Test Driven Development - Exercise/Chainblock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/20. Test Driven Development - Exercise/ChainblockImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/20. Test Driven Development - Exercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/20. Test Driven Development - Exercise/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/20. Test Driven Development - Exercise/TransactionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/20. Test Driven Development - Exercise/TransactionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/21. Design Patterns - Lab.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/22. Design Patterns - Exercise.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/22. Design Patterns - Exercise/builderExercise/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/22. Design Patterns - Exercise/builderExercise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/22. Design Patterns - Exercise/builderExercise/Phonebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/22. Design Patterns - Exercise/factoryExercise/Cake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/Resources/22. Design Patterns - Exercise/factoryExercise/CakeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_01_WorkingWithAbstraction_Lab/_01_RhombusOfStars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_01_WorkingWithAbstraction_Lab/_02_PointInRectangle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_01_WorkingWithAbstraction_Lab/_02_PointInRectangle/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_01_WorkingWithAbstraction_Lab/_02_PointInRectangle/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_01_WorkingWithAbstraction_Lab/_03_StudentSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_01_WorkingWithAbstraction_Lab/_03_StudentSystem/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_01_WorkingWithAbstraction_Lab/_03_StudentSystem/StudentSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_01_WorkingWithAbstraction_Lab/_04_HotelReservation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_01_WorkingWithAbstraction_Lab/_04_HotelReservation/PriceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_02_WorkingWithAbstraction_Exc/_01_CardSuit/CardSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_02_WorkingWithAbstraction_Exc/_01_CardSuit/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_02_WorkingWithAbstraction_Exc/_02_CardRank/CardRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_02_WorkingWithAbstraction_Exc/_02_CardRank/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_02_WorkingWithAbstraction_Exc/_03_CardsWithPower/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_02_WorkingWithAbstraction_Exc/_03_CardsWithPower/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_02_WorkingWithAbstraction_Exc/_04_TrafficLights/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_02_WorkingWithAbstraction_Exc/_04_TrafficLights/TrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_02_WorkingWithAbstraction_Exc/_05_JediGalaxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_02_WorkingWithAbstraction_Exc/_06_GreedyTimes/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_02_WorkingWithAbstraction_Exc/_06_GreedyTimes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_03_Encapsulation_Lab/_01_SortByNameAndAge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_03_Encapsulation_Lab/_01_SortByNameAndAge/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_03_Encapsulation_Lab/_02_SalaryIncrease/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_03_Encapsulation_Lab/_02_SalaryIncrease/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_03_Encapsulation_Lab/_03_ValidationData/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_03_Encapsulation_Lab/_03_ValidationData/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_03_Encapsulation_Lab/_04_FirstAndReserveTeam/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_03_Encapsulation_Lab/_04_FirstAndReserveTeam/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_03_Encapsulation_Lab/_04_FirstAndReserveTeam/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_01_ClassBox/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_01_ClassBox/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_02_AnimalFarm/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_02_AnimalFarm/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_03_ShoppingSpree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_03_ShoppingSpree/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_03_ShoppingSpree/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_04_PizzaCalories/Dough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_04_PizzaCalories/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_04_PizzaCalories/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_04_PizzaCalories/Topping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_05_FootballTeamGenerator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_05_FootballTeamGenerator/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_04_Encapsulation_Exc/_05_FootballTeamGenerator/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_05_Inheritance_Lab/_01_SingleInheritance/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_05_Inheritance_Lab/_01_SingleInheritance/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_05_Inheritance_Lab/_01_SingleInheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_05_Inheritance_Lab/_02_HierarchicalInheritance/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_05_Inheritance_Lab/_02_HierarchicalInheritance/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_05_Inheritance_Lab/_02_HierarchicalInheritance/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_05_Inheritance_Lab/_02_HierarchicalInheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_05_Inheritance_Lab/_03_RandomArrayList/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_05_Inheritance_Lab/_03_RandomArrayList/RandomArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_05_Inheritance_Lab/_04_StackOfStrings/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_05_Inheritance_Lab/_04_StackOfStrings/StackOfStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_01_Person/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_01_Person/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_01_Person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_02_Zoo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_02_Zoo/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_02_Zoo/Gorilla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_02_Zoo/Lizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_02_Zoo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_02_Zoo/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_02_Zoo/Reptile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_02_Zoo/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_03_PlayersAndMonsters/BladeKnight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_03_PlayersAndMonsters/DarkKnight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_03_PlayersAndMonsters/DarkWizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_03_PlayersAndMonsters/Elf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_03_PlayersAndMonsters/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_03_PlayersAndMonsters/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_03_PlayersAndMonsters/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_03_PlayersAndMonsters/MuseElf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_03_PlayersAndMonsters/SoulMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_03_PlayersAndMonsters/Wizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_04_NeedForSpeed/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_04_NeedForSpeed/CrossMotorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_04_NeedForSpeed/FamilyCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_04_NeedForSpeed/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_04_NeedForSpeed/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_04_NeedForSpeed/RaceMotorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_04_NeedForSpeed/SportCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_04_NeedForSpeed/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/Cake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/ColdBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/Dessert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/HotBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/MainDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/Salmon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/Soup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/Starter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_05_Restaurant/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_06_Animals/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_06_Animals/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_06_Animals/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_06_Animals/Frog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_06_Animals/Kitten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_06_Animals/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_06_Inheritance_Exc/_06_Animals/Tomcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_01_CarShop/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_01_CarShop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_01_CarShop/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_02_CarShopExtended/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_02_CarShopExtended/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_02_CarShopExtended/CarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_02_CarShopExtended/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_02_CarShopExtended/Rentable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_02_CarShopExtended/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_02_CarShopExtended/Sellable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_03_SayHello/Bulgarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_03_SayHello/Chinese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_03_SayHello/European.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_03_SayHello/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_03_SayHello/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_04_SayHelloExtended/BasePerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_04_SayHelloExtended/Bulgarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_04_SayHelloExtended/Chinese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_04_SayHelloExtended/European.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_04_SayHelloExtended/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_04_SayHelloExtended/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_05_BorderControl/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_05_BorderControl/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_05_BorderControl/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_05_BorderControl/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_06_Ferrari/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_06_Ferrari/Ferrari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_07_InterfacesAndAbstraction_Lab/_06_Ferrari/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_01_DefineAnInterfacePerson/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_01_DefineAnInterfacePerson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_01_DefineAnInterfacePerson/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_02_MultipleImplementation/Birthable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_02_MultipleImplementation/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_02_MultipleImplementation/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_02_MultipleImplementation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_02_MultipleImplementation/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_03_BirthdayCelebrations/Birthable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_03_BirthdayCelebrations/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_03_BirthdayCelebrations/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_03_BirthdayCelebrations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_03_BirthdayCelebrations/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_03_BirthdayCelebrations/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_04_FoodShortage/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_04_FoodShortage/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_04_FoodShortage/Identifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_04_FoodShortage/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_04_FoodShortage/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_04_FoodShortage/Rebel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_05_Telephony/Browsable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_05_Telephony/Callable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_05_Telephony/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_05_Telephony/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/Soldier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/SoldierImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/Private.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/PrivateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/Spy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/SpyImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/privatE/LieutenantGeneral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/privatE/LieutenantGeneralImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/privatE/SpecialisedSoldier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/privatE/SpecialisedSoldierImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/privatE/specialisedSoldier/Commando.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/privatE/specialisedSoldier/CommandoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/privatE/specialisedSoldier/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/privatE/specialisedSoldier/EngineerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/privatE/specialisedSoldier/Mission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_06_MilitaryElite/soldier/privatE/specialisedSoldier/Repair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_07_CollectionHierarchy/AddCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_07_CollectionHierarchy/AddRemovable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_07_CollectionHierarchy/AddRemoveCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_07_CollectionHierarchy/Addable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_07_CollectionHierarchy/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_07_CollectionHierarchy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_07_CollectionHierarchy/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_08_InterfacesAndAbstraction_Exc/_07_CollectionHierarchy/MyListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_01_MathOperation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_01_MathOperation/MathOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_02_Shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_02_Shapes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_02_Shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_02_Shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_03_Animals/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_03_Animals/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_03_Animals/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_03_Animals/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_04_WildFarm/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_04_WildFarm/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_04_WildFarm/Feline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_04_WildFarm/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_04_WildFarm/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_04_WildFarm/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_04_WildFarm/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_04_WildFarm/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_04_WildFarm/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_04_WildFarm/Vegetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_09_Polymorphism_Lab/_04_WildFarm/Zebra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_01_Vehicles/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_01_Vehicles/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_01_Vehicles/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_01_Vehicles/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_02_VehiclesExtension/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_02_VehiclesExtension/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_02_VehiclesExtension/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_02_VehiclesExtension/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_02_VehiclesExtension/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_03_Word/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_03_Word/CommandImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_03_Word/CommandInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_03_Word/CutTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_03_Word/Initialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_03_Word/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_03_Word/PasteTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_03_Word/TextTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_10_Polymorphism_Exc/_03_Word/ToUpperTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_13_ReflectionAndAnnotation_Lab/Reflection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_13_ReflectionAndAnnotation_Lab/_01_Reflection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_13_ReflectionAndAnnotation_Lab/_02_GettersAndSetters/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_13_ReflectionAndAnnotation_Lab/_03_HighQualityMistakes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_13_ReflectionAndAnnotation_Lab/_04_CreateAnnotations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_13_ReflectionAndAnnotation_Lab/_04_CreateAnnotations/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_13_ReflectionAndAnnotation_Lab/_04_CreateAnnotations/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_13_ReflectionAndAnnotation_Lab/_05_CodingTracker/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_13_ReflectionAndAnnotation_Lab/_05_CodingTracker/Tracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_01_HarvestingFields/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_01_HarvestingFields/RichSoilLand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_02_BlackBoxInteger/BlackBoxInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_02_BlackBoxInteger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/core/factories/UnitFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/data/UnitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/interfaces/Attacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/interfaces/CommandInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/interfaces/Destroyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/interfaces/Executable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/interfaces/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/interfaces/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/interfaces/UnitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/models/units/AbstractUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/models/units/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/models/units/Gunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/models/units/Horseman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/models/units/Pikeman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_03_BarracksWars_ANewFactory/models/units/Swordsman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/core/commands/AddCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/core/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/core/commands/FightCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/core/commands/ReportCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/core/commands/RetireCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/core/factories/UnitFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/data/UnitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/interfaces/Attacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/interfaces/CommandInterpreter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/interfaces/Destroyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/interfaces/Executable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/interfaces/Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/interfaces/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/interfaces/UnitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/models/units/AbstractUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/models/units/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/models/units/Gunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/models/units/Horseman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/models/units/Pikeman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_14_ReflectionAndAnnotation_Exc/_04_BarracksWars_TheCommandsStrikeBack/models/units/Swordsman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_15_ExceptionsAndErrorHandling/_01_NumberInRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_15_ExceptionsAndErrorHandling/_02_SquareRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_15_ExceptionsAndErrorHandling/_03_EnterNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/animals/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/animals/AquaticAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/animals/BaseAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/animals/TerrestrialAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/areas/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/areas/BaseArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/areas/LandArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/areas/WaterArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/foods/BaseFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/foods/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/foods/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/entities/foods/Vegetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/repositories/FoodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_04_April_18/zoo/repositories/FoodRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/models/discoverer/Anthropologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/models/discoverer/Archaeologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/models/discoverer/BaseDiscoverer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/models/discoverer/Discoverer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/models/discoverer/Geologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/models/museum/BaseMuseum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/models/museum/Museum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/models/operation/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/models/operation/OperationImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/models/spot/Spot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/models/spot/SpotImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/repositories/DiscovererRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2022_08_August_22/goldDigger/repositories/SpotRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/bank/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/bank/BaseBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/bank/BranchBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/bank/CentralBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/client/Adult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/client/BaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/client/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/loan/BaseLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/loan/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/loan/MortgageLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/entities/loan/StudentLoan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/repositories/LoanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_08_August_05/bank/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/models/diver/BaseDiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/models/diver/DeepWaterDiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/models/diver/Diver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/models/diver/OpenWaterDiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/models/diver/WreckDiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/models/diving/Diving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/models/diving/DivingImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/models/divingSite/DivingSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/models/divingSite/DivingSiteImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/models/seaCatch/BaseSeaCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/models/seaCatch/SeaCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/repositories/DiverRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/repositories/DivingSiteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_09/harpoonDiver/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/models/climber/BaseClimber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/models/climber/Climber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/models/climber/RockClimber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/models/climber/WallClimber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/models/climbing/Climbing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/models/climbing/ClimbingImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/models/mountain/Mountain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/models/mountain/MountainImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/models/roster/Roster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/models/roster/RosterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/repositories/ClimberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/repositories/MountainRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/_23_PastExams/_2023_12_December_19/climbers/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/common/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/common/ConstantMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/common/ExceptionMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/core/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/core/ControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/core/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/core/EngineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/robot/BaseRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/robot/FemaleRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/robot/MaleRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/robot/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/services/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/services/MainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/services/SecondaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/services/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/supplements/BaseSupplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/supplements/MetalArmor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/supplements/PlasticArmor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/entities/supplements/Supplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/repositories/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/Java OOP/src/robotService/repositories/SupplementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_17_UnitTesting_Lab/Axe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_17_UnitTesting_Lab/Dummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_17_UnitTesting_Lab/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_17_UnitTesting_Lab/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_17_UnitTesting_Lab/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_18_UnitTesting_Exc/_01_Database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_18_UnitTesting_Exc/_02_ExtendedDatabase/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_18_UnitTesting_Exc/_02_ExtendedDatabase/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_18_UnitTesting_Exc/_03_IteratorTest/ListIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_18_UnitTesting_Exc/_04_BubbleSortTest/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_18_UnitTesting_Exc/_05_CustomLinkedList/CustomLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_18_UnitTesting_Exc/_06_TirePressureMonitoringSystem/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_18_UnitTesting_Exc/_06_TirePressureMonitoringSystem/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2022_04_April_18/petStore/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2022_04_April_18/petStore/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2022_04_April_18/petStore/PetStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2022_08_August_22/archeologicalExcavations/Archaeologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2022_08_August_22/archeologicalExcavations/Excavation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2022_08_August_22/archeologicalExcavations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_04_April_08/robots/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_04_April_08/robots/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_04_April_08/robots/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_08_August_05/bank/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_08_August_05/bank/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_08_August_05/bank/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_12_December_09/scubaDive/DeepWaterDiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_12_December_09/scubaDive/Diving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_12_December_09/scubaDive/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_12_December_19/stuntClimb/Climbing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_12_December_19/stuntClimb/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/main/java/_23_PastExams/_2023_12_December_19/stuntClimb/RockClimber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/test/java/_17_UnitTesting_Lab/AxeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/test/java/_17_UnitTesting_Lab/DummyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/test/java/_17_UnitTesting_Lab/HeroTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/test/java/_18_UnitTesting_Exc/_01_Database/DatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/test/java/_18_UnitTesting_Exc/_02_ExtendedDatabase/DatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/test/java/_23_PastExams/_2022_04_April_18/petStore/PetStoreTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/test/java/_23_PastExams/_2022_08_August_22/archeologicalExcavations/ExcavationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/test/java/_23_PastExams/_2023_04_April_08/robots/ServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/test/java/_23_PastExams/_2023_08_August_05/bank/BankTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/test/java/_23_PastExams/_2023_12_December_09/scubaDive/DivingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/MavenProject/src/test/java/_23_PastExams/_2023_12_December_19/stuntClimb/ClimbingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java Basics/Java Basics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/Java Fundamentals.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Advanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Advanced.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_01_StacksAndQueues_Lab/_05_PrinterQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_01_StacksAndQueues_Lab/_05_PrinterQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_04_MultidimensionalArrays_Exc/_08_TheHeiganDance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_04_MultidimensionalArrays_Exc/_08_TheHeiganDance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_05_SetsAndMapsAdvanced_Lab/_06_ProductShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_05_SetsAndMapsAdvanced_Lab/_06_ProductShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_12_DefiningClasses_Exc/_07_Google/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_12_DefiningClasses_Exc/_07_Google/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_17_IteratorsAndComparators_Lab/_01_Book/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_17_IteratorsAndComparators_Lab/_01_Book/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_17_IteratorsAndComparators_Lab/_02_Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_17_IteratorsAndComparators_Lab/_02_Library/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_17_IteratorsAndComparators_Lab/_03_ComparableBook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_17_IteratorsAndComparators_Lab/_03_ComparableBook/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_17_IteratorsAndComparators_Lab/_04_BookComparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_17_IteratorsAndComparators_Lab/_04_BookComparator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_20_PastExams/_2023_08_August/_02_DeliveryBoy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_20_PastExams/_2023_08_August/_02_DeliveryBoy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_21_MidExam/_01_ChickenSnack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_21_Exam/_01_ChickenSnack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_21_MidExam/_02_ClearSkies.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_21_Exam/_02_ClearSkies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_21_MidExam/_03_ChasingSharks/Basin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_21_Exam/_03_ChasingSharks/Basin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_21_MidExam/_03_ChasingSharks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_21_Exam/_03_ChasingSharks/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_21_MidExam/_03_ChasingSharks/Shark.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/Java Advanced/src/_21_Exam/_03_ChasingSharks/Shark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programing Basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programing Basics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_00_MoreExercises/_07_MapsLambdaStreamAPI_MoreExc/_04_SnowWhite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_00_MoreExercises/_07_MapsLambdaStreamAPI_MoreExc/_04_SnowWhite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_05_Arrays_Lab/_04_ReverseArrayOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_05_Arrays_Lab/_04_ReverseArrayOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_05_Arrays_Lab/_07_CondenseArrayToNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_05_Arrays_Lab/_07_CondenseArrayToNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_06_Arrays_Exc/_01_Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_06_Arrays_Exc/_01_Train.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_06_Arrays_Exc/_02_CommonElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_06_Arrays_Exc/_02_CommonElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_07_Methods_Lab/_03_PrintingTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_07_Methods_Lab/_03_PrintingTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_09_Lists_Lab/_01_SumAdjacentEqualNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_09_Lists_Lab/_01_SumAdjacentEqualNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_09_Lists_Lab/_07_RemoveNegativesAndReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_09_Lists_Lab/_07_RemoveNegativesAndReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_10_RegularMidExam/_02_CoffeeLover.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/Java Fundamentals/src/_10_RegularMidExam/_02_CoffeeLover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programing Fundamentals/Programing Fundamentals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programing Fundamentals/Programing Fundamentals.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +664,34 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/SoftUni/Programing Basics&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/SoftUni/Programing Basics/Java Basics&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\SoftUni\Programing Basics\Java Basics" />
+      <recent name="D:\Documents\SoftUni\Programing Basics\Java Basics\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\SoftUni\Programing Basics\Java Basics" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -59,7 +59,7 @@ public class Person {
     public String toString() {
         return String.format("%s%n" +
                 "Company: %s%n" +
-                "Car: %s%n" +
+                "_06_Inheritance_Exc._04_NeedForSpeed._07_InterfacesAndAbstraction_Lab._01_CarShop._07_InterfacesAndAbstraction_Lab._02_CarShopExtend._07_InterfacesAndAbstraction_Lab._06_Ferrari._10_Polymorphism_Exc._02_VehiclesExtension.Car: %s%n" +
                 "Pokemon: %s%n" +
                 "Parents: %s%n" +
                 "Children: %s",

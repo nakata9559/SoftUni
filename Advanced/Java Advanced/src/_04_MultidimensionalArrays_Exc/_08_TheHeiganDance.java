@@ -223,14 +223,14 @@ public class _08_TheHeiganDance {
                 chamber[playerRow][playerCol] = 0;
             }
             System.out.printf("Heigan: Defeated!%n" +
-                            "Player: %d%n" +
+                            "_04_Encapsulation_Exc._05_FootballTeamGenerator.Player: %d%n" +
                             "Final position: %d, %d%n",
                     chamber[playerRow][playerCol],
                     playerRow,
                     playerCol);
         } else {
             System.out.printf("Heigan: %.2f%n" +
-                            "Player: Killed by %s%n" +
+                            "_04_Encapsulation_Exc._05_FootballTeamGenerator.Player: Killed by %s%n" +
                             "Final position: %d, %d%n",
                     heiganHPleft,
                     currentSpell,

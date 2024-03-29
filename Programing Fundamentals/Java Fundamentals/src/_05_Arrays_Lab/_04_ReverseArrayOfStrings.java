@@ -1,6 +1,5 @@
 package _05_Arrays_Lab;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class _04_ReverseArrayOfStrings {

@@ -17,7 +17,7 @@ public class _05_PrinterQueue {
 
             if ("cancel".equals(input)) {
                 if (queue.isEmpty()) {
-                    System.out.println("Printer is on standby");
+                    System.out.println("_12_SOLID_Exc.Printer is on standby");
                 } else {
                     System.out.println("Canceled" + " " + queue.poll());
                 }

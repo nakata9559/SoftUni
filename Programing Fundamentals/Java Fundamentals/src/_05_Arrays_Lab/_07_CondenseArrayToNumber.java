@@ -1,8 +1,5 @@
 package _05_Arrays_Lab;
 
-import com.sun.jdi.ArrayReference;
-
-import java.sql.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 

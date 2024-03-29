@@ -1,6 +1,5 @@
 package _06_Arrays_Exc;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class _02_CommonElements {

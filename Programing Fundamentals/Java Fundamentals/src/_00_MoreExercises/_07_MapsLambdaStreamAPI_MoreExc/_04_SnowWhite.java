@@ -1,6 +1,8 @@
 package _00_MoreExercises._07_MapsLambdaStreamAPI_MoreExc;
 
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 public class _04_SnowWhite {
     public static void main(String[] args) {

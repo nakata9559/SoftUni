@@ -1,7 +1,5 @@
 package _07_Methods_Lab;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class _03_PrintingTriangle {
