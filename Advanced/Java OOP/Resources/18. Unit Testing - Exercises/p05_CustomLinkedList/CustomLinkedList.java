@@ -94,7 +94,7 @@ public class CustomLinkedList<T> {
      */
     public void add(T item) {
         if (this.head == null) {
-            // We have an empty list -> create a new head and tail
+            // We have an empty list -> createNew a new head and tail
             this.head = new ListNode(item);
             this.tail = this.head;
         }

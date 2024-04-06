@@ -3,7 +3,7 @@ package _23_PastExams._2022_08_August_22.goldDigger.common;
 public class ExceptionMessages {
     public static final String DISCOVERER_NAME_NULL_OR_EMPTY = "Discoverer name cannot be null or empty.";
 
-    public static final String DISCOVERER_ENERGY_LESS_THAN_ZERO = "Cannot create Discoverer with negative energy.";
+    public static final String DISCOVERER_ENERGY_LESS_THAN_ZERO = "Cannot createNew Discoverer with negative energy.";
 
     public static final String DISCOVERER_INVALID_KIND = "Discoverer kind doesn't exists.";
 

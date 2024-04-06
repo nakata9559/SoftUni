@@ -3,7 +3,7 @@ package _23_PastExams._2023_12_December_19.climbers.common;
 public class ExceptionMessages {
     public static final String CLIMBER_NAME_NULL_OR_EMPTY = "Climber name cannot be null or empty.";
 
-    public static final String CLIMBER_STRENGTH_LESS_THAN_ZERO = "Cannot create Climber with negative strength.";
+    public static final String CLIMBER_STRENGTH_LESS_THAN_ZERO = "Cannot createNew Climber with negative strength.";
 
     public static final String CLIMBER_INVALID_TYPE = "Climber type doesn't exist.";
 

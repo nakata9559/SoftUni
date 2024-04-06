@@ -3,7 +3,7 @@ package _23_PastExams._2023_12_December_09.harpoonDiver.common;
 public class ExceptionMessages {
     public static final String DIVER_NAME_NULL_OR_EMPTY = "Diver name cannot be null or empty.";
 
-    public static final String DIVER_OXYGEN_LESS_THAN_ZERO = "Cannot create Diver with negative oxygen.";
+    public static final String DIVER_OXYGEN_LESS_THAN_ZERO = "Cannot createNew Diver with negative oxygen.";
 
     public static final String DIVER_INVALID_KIND = "Diver kind doesn't exist.";
 
